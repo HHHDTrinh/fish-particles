@@ -16,8 +16,8 @@ const mouse = new THREE.Vector2();
 const point = new THREE.Vector2();
 
 const textures = [
-  new THREE.TextureLoader().load('../assets/images/Illus.png'),
-  new THREE.TextureLoader().load('../assets/images/Illus.png'),
+  new THREE.TextureLoader().load('./assets/images/Illus.png'),
+  new THREE.TextureLoader().load('./assets/images/Illus.png'),
 ];
 
 const maskTexture = new THREE.TextureLoader().load(
